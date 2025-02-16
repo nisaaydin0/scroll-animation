@@ -44,8 +44,12 @@ Usage
 
 
 
-
-
+<hr>
+<hr>
+<hr>
+<hr>
+HOw to use getBoundingClientRect() method : 
+====>>> https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
 
 Element: getBoundingClientRect() method
 The Element.getBoundingClientRect() method returns a DOMRect object providing information about the size of an element and its position relative to the viewport.
@@ -54,6 +58,9 @@ None.
 
 Return value
 The returned value is a DOMRect object which is the smallest rectangle which contains the entire element, including its padding and border-width. The left, top, right, bottom, x, y, width, and height properties describe the position and size of the overall rectangle in pixels. Properties other than width and height are relative to the top-left of the viewport.
+
+
+<img width="765" alt="Image" src="https://github.com/user-attachments/assets/393a8811-fe40-4bec-9a4b-8dae8257f18e" />
 
 The width and height properties of the DOMRect object returned by the method include the padding and border-width, not only the content width/height. In the standard box model, this would be equal to the width or height property of the element + padding + border-width. But if box-sizing: border-box is set for the element this would be directly equal to its width or height.
 
@@ -70,9 +77,12 @@ Basic
 This simple example retrieves the DOMRect object representing the bounding client rect of a simple <div> element, and prints out its properties below it.
 
 
-<img width="765" alt="Image" src="https://github.com/user-attachments/assets/393a8811-fe40-4bec-9a4b-8dae8257f18e" />
 
 <img width="758" alt="Image" src="https://github.com/user-attachments/assets/124c2805-b47d-4ff8-bc58-938bd2544358" />
 
 <img width="761" alt="Image" src="https://github.com/user-attachments/assets/df96bcba-7ce3-4aac-91f4-607073035e12" />
 
+
+Notice how the width/height are equal to its width/height + padding.
+
+Also note how the values of x/left, y/top, right, and bottom are equal to the absolute distance from the relevant edge of the viewport to that side of the element, in each case.
