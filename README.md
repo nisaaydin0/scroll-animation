@@ -70,3 +70,9 @@ Basic
 This simple example retrieves the DOMRect object representing the bounding client rect of a simple <div> element, and prints out its properties below it.
 
 
+<img width="765" alt="Image" src="https://github.com/user-attachments/assets/393a8811-fe40-4bec-9a4b-8dae8257f18e" />
+
+<img width="758" alt="Image" src="https://github.com/user-attachments/assets/124c2805-b47d-4ff8-bc58-938bd2544358" />
+
+<img width="761" alt="Image" src="https://github.com/user-attachments/assets/df96bcba-7ce3-4aac-91f4-607073035e12" />
+
